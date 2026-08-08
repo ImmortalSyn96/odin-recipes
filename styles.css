@@ -15,7 +15,8 @@ h1 {
 }
 
 ul {
-    border: 2px solid #edeb6d;
+    margin: 10px auto;
+    text-align: center;
 }
 
 li {
