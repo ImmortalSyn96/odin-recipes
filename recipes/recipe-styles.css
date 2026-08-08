@@ -43,6 +43,13 @@ strong {
     font-weight: 600;
     color:  rgb(239, 154, 213);
 }
+
+.quick-info {
+    font-weight: 500;
+    color:  yellow;
+    margin: 10px;
+}
+
 h3 strong {
     font-weight: 500;
 }
