@@ -1,0 +1,53 @@
+body {
+     background-color: rgb(32, 32, 32);
+    color: #f8f8f5;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+p {
+    margin: 20px;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid white;
+    color: rgb(239, 154, 213);
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+li {
+
+    margin: 11px;
+}
+
+strong {
+    font-weight: 600;
+    color:  rgb(239, 154, 213);
+}
+h3 strong {
+    font-weight: 600;
+}
+
+button {
+    display: block;
+    height: 40px;
+    width: 80px;
+    background-color:rgb(32, 32, 32);
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+a {
+    color: rgb(239, 154, 213);
+}
