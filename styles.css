@@ -1,0 +1,40 @@
+body {
+
+    background-color: rgb(26, 29, 27);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+
+}
+
+h1 {
+
+    text-align: center;
+
+}
+
+ul {
+
+    height: 500px;
+    width: auto;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 50px 0;
+    margin: auto 60px;
+}
+
+img {
+
+    display: block;
+    margin: 0px auto 10px;
+    height: 100px;
+    width: auto;
+
+}
+
+a {
+color: #edeb6d;
+text-align: center;
+}
