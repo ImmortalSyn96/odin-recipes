@@ -1,0 +1,49 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bowl -->
+  <path d="M15 50 Q15 85 50 85 Q85 85 85 50 Z" fill="#ECEFF1" stroke="#CFD8DC" stroke-width="2"/>
+  <ellipse cx="50" cy="50" rx="35" ry="8" fill="#FFFFFF" stroke="#CFD8DC" stroke-width="1"/>
+
+  <!-- Rice (Textured Mound) -->
+  <path d="M25 50 Q50 30 75 50 Z" fill="#F5F5F5"/>
+  <g fill="#E0E0E0">
+    <circle cx="40" cy="45" r="1.2"/>
+    <circle cx="55" cy="42" r="1"/>
+    <circle cx="65" cy="47" r="1.1"/>
+    <circle cx="48" cy="48" r="0.9"/>
+  </g>
+
+  <!-- Broccoli Florets -->
+  <g transform="translate(62, 38)">
+    <path d="M0 10 Q-5 0 5 0 Q12 0 10 10" fill="#2E7D32"/> <!-- Stem/Base -->
+    <circle cx="2" cy="2" r="5" fill="#4CAF50"/>
+    <circle cx="8" cy="4" r="4" fill="#388E3C"/>
+    <circle cx="4" cy="-2" r="4" fill="#43A047"/>
+  </g>
+
+  <!-- Tofu Cubes (Honey Soy Glazed) -->
+  <!-- Cube 1 -->
+  <g transform="translate(35, 38)">
+    <rect x="0" y="0" width="12" height="12" rx="1" fill="#8D6E63"/> <!-- Side -->
+    <path d="M0 0 L4 -4 L16 -4 L12 0 Z" fill="#A1887F"/> <!-- Top -->
+    <path d="M12 0 L16 -4 L16 8 L12 12 Z" fill="#6D4C41"/> <!-- Right -->
+    <!-- Honey Soy Glaze highlight -->
+    <rect x="1" y="1" width="10" height="4" rx="0.5" fill="#5D4037" opacity="0.4"/>
+  </g>
+
+  <!-- Cube 2 -->
+  <g transform="translate(48, 45)">
+    <rect x="0" y="0" width="10" height="10" rx="1" fill="#8D6E63"/>
+    <path d="M0 0 L3 -3 L13 -3 L10 0 Z" fill="#A1887F"/>
+    <path d="M10 0 L13 -3 L13 7 L10 10 Z" fill="#6D4C41"/>
+  </g>
+
+  <!-- Sesame Seeds (White specks) -->
+  <g fill="#FFFFFF">
+    <circle cx="40" cy="40" r="0.6"/>
+    <circle cx="43" cy="44" r="0.6"/>
+    <circle cx="38" cy="46" r="0.5"/>
+    <circle cx="52" cy="48" r="0.6"/>
+    <circle cx="55" cy="44" r="0.5"/>
+    <circle cx="58" cy="47" r="0.6"/>
+  </g>
+</svg>
