@@ -12,10 +12,11 @@ p {
 
 
 h1, h2, h3 {
-    text-align: center;
+    text-align:center;
     padding: 5px;
     margin: 20px;
-    border: 2px solid white;
+    border: 2px solid rgb(239, 154, 213);
+    border-style: none none solid;
     color: rgb(239, 154, 213);
     
 }
@@ -30,6 +31,13 @@ li {
     margin: 11px;
 }
 
+ol li::marker {
+    color: yellow;
+}
+
+ul li::marker {
+    color: rgb(239, 154, 213);
+}
 strong {
     font-weight: 600;
     color:  rgb(239, 154, 213);
